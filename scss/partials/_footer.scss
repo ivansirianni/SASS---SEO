@@ -1,0 +1,38 @@
+/* Footer*/
+.footer{
+    display: grid;
+    grid-template-areas: "logo" "nav" "info";
+    background-color: $alternative;
+    &__img{
+        grid-area: logo;
+        width: 70px;   
+        height: 50px; 
+        justify-self: center;
+        align-self: center;
+    }
+    &__nav{
+        grid-area: nav;
+        align-self: center;
+        justify-self: center;
+    }
+    &__info{
+        grid-area: info;
+        align-self: center;
+        justify-self: center;
+        width: auto;
+    }
+    &__info h3{
+        color: $secondary;
+        text-align: center;
+        font-size: $text-medium;
+    }
+    &__info ul{
+        list-style-type: none;
+    }
+    &__info li{
+        text-decoration: none;    
+        color: $secondary;
+        padding: $spacing-xsmall;
+        font-size: $text-small;
+    }
+}
