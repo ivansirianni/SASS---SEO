@@ -38,10 +38,11 @@
 
 /* header */
 header .navbar {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #000000; }
   header .navbar__img {
-    width: 20%;
-    margin-left: 30%; }
+    width: 20%; }
 
 /*body*/
 body {
@@ -62,23 +63,25 @@ body {
   .footer__nav {
     grid-area: nav;
     align-self: center;
-    justify-self: center; }
+    justify-self: left;
+    margin-left: 10%; }
   .footer__info {
     grid-area: info;
-    align-self: center;
-    justify-self: center;
+    align-self: left;
+    justify-self: left;
     width: auto; }
   .footer__info h3 {
     color: #fafafa;
-    text-align: center;
-    font-size: 4vw; }
+    text-align: left;
+    font-size: 4vw;
+    margin-left: 20%; }
   .footer__info ul {
     list-style-type: none; }
   .footer__info li {
     text-decoration: none;
     color: #fafafa;
     padding: 0.1vw;
-    font-size: 3vw; }
+    font-size: 4vw; }
 
 /*videos*/
 .video__container {

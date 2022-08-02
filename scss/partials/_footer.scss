@@ -13,18 +13,20 @@
     &__nav{
         grid-area: nav;
         align-self: center;
-        justify-self: center;
+        justify-self: left;
+        margin-left: 10%;
     }
     &__info{
         grid-area: info;
-        align-self: center;
-        justify-self: center;
+        align-self: left;
+        justify-self: left;
         width: auto;
     }
     &__info h3{
         color: $secondary;
-        text-align: center;
+        text-align: left;
         font-size: $text-medium;
+        margin-left: 20%;
     }
     &__info ul{
         list-style-type: none;
@@ -33,6 +35,6 @@
         text-decoration: none;    
         color: $secondary;
         padding: $spacing-xsmall;
-        font-size: $text-small;
+        font-size: $text-medium;
     }
 }
